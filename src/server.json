@@ -1,0 +1,748 @@
+{
+  "wards": [
+    {
+      "id": "1",
+      "name": "वडा १",
+      "status": "1",
+      "office_id": 2
+    },
+    {
+      "id": "2",
+      "name": "वडा २",
+      "status": "1",
+      "office_id": 2
+    },
+    {
+      "id": "3",
+      "name": "वडा ३",
+      "status": "1",
+      "office_id": 2
+    },
+    {
+      "id": "4",
+      "name": "वडा ४",
+      "status": "1",
+      "office_id": 2
+    },
+    {
+      "id": "5",
+      "name": "वडा ५",
+      "status": "1",
+      "office_id": 2
+    },
+    {
+      "id": "6",
+      "name": "वडा ६",
+      "status": "1",
+      "office_id": 2
+    },
+    {
+      "id": "7",
+      "name": "वडा ७",
+      "status": "1",
+      "office_id": 2
+    }
+  ],
+  "margas": [
+    {
+      "id": "3",
+      "name": "Gokarna Marga",
+      "status": "1",
+      "basti_id": 1,
+      "ward_id": 1,
+      "office_id": 2
+    },
+    {
+      "id": "4",
+      "name": "Naya Marga",
+      "status": "1",
+      "basti_id": 2,
+      "ward_id": 1,
+      "office_id": 2
+    }
+  ],
+  "bastis": [
+    {
+      "id": "1",
+      "name": "भयाङ पोखर वडा कायालय",
+      "status": "1",
+      "ward_id": 1,
+      "office_id": 2
+    },
+    {
+      "id": "2",
+      "name": "छ-देउराली",
+      "status": "1",
+      "ward_id": 1,
+      "office_id": 2
+    },
+    {
+      "id": "3",
+      "name": "किटिनी",
+      "status": "1",
+      "ward_id": 1,
+      "office_id": 2
+    },
+    {
+      "id": "4",
+      "name": "गैडा गाँउ",
+      "status": "1",
+      "ward_id": 1,
+      "office_id": 2
+    },
+    {
+      "id": "5",
+      "name": "कटुन्जे",
+      "status": "1",
+      "ward_id": 1,
+      "office_id": 2
+    },
+    {
+      "id": "6",
+      "name": "थुम्की",
+      "status": "1",
+      "ward_id": 1,
+      "office_id": 2
+    },
+    {
+      "id": "7",
+      "name": "ज्यामीरे",
+      "status": "1",
+      "ward_id": 1,
+      "office_id": 2
+    },
+    {
+      "id": "8",
+      "name": "सोना गाँउ",
+      "status": "1",
+      "ward_id": 1,
+      "office_id": 2
+    },
+    {
+      "id": "9",
+      "name": "चिलाउने गाँउ",
+      "status": "1",
+      "ward_id": 1,
+      "office_id": 2
+    },
+    {
+      "id": "10",
+      "name": "बडारे",
+      "status": "1",
+      "ward_id": 1,
+      "office_id": 2
+    },
+    {
+      "id": "11",
+      "name": "डम्रेचौर",
+      "status": "1",
+      "ward_id": 2,
+      "office_id": 2
+    },
+    {
+      "id": "12",
+      "name": "राम्चे",
+      "status": "1",
+      "ward_id": 2,
+      "office_id": 2
+    },
+    {
+      "id": "13",
+      "name": "महेश फाँट",
+      "status": "1",
+      "ward_id": 2,
+      "office_id": 2
+    },
+    {
+      "id": "14",
+      "name": "खत्री गाँउ",
+      "status": "1",
+      "ward_id": 2,
+      "office_id": 2
+    },
+    {
+      "id": "15",
+      "name": "भाडोटाँर",
+      "status": "1",
+      "ward_id": 2,
+      "office_id": 2
+    },
+    {
+      "id": "16",
+      "name": "थुम्की",
+      "status": "1",
+      "ward_id": 2,
+      "office_id": 2
+    },
+    {
+      "id": "17",
+      "name": "कुखुरचौट",
+      "status": "1",
+      "ward_id": 2,
+      "office_id": 2
+    },
+    {
+      "id": "18",
+      "name": "आँपचौर",
+      "status": "1",
+      "ward_id": 2,
+      "office_id": 2
+    },
+    {
+      "id": "19",
+      "name": "रातमोट वडा कार्यालय",
+      "status": "1",
+      "ward_id": 2,
+      "office_id": 2
+    },
+    {
+      "id": "20",
+      "name": "गैराबारी",
+      "status": "1",
+      "ward_id": 2,
+      "office_id": 2
+    },
+    {
+      "id": "21",
+      "name": "सिरानचौर",
+      "status": "1",
+      "ward_id": 2,
+      "office_id": 2
+    },
+    {
+      "id": "22",
+      "name": "भट्टराई गाँउ",
+      "status": "1",
+      "ward_id": 2,
+      "office_id": 2
+    },
+    {
+      "id": "23",
+      "name": "रमाईलोचौर",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "24",
+      "name": "भालुखोला",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "25",
+      "name": "घाटी",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "26",
+      "name": "खत्री खोला",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "27",
+      "name": "बजगाँई",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "28",
+      "name": "वेलडाँडा",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "29",
+      "name": "सेडाई डाँडा",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "30",
+      "name": "न्यौपाने डाँडा",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "31",
+      "name": "छत्रेपाटी",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "32",
+      "name": "पुरनडाँडा",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "33",
+      "name": "किटिनी",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "34",
+      "name": "बोहोरा गाँउ",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "35",
+      "name": "कोलगौरा",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "36",
+      "name": "कुसुण्डे",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "37",
+      "name": "मिजार गाँउ",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "38",
+      "name": "नँया गाँउ",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "39",
+      "name": "कुवँर गाँउ",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "40",
+      "name": "बस्नेत गाँउ",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "41",
+      "name": "थुम्की",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "42",
+      "name": "तेस्रेपानी",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "43",
+      "name": "डडुवा",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "44",
+      "name": "खरेलडाँडा",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "45",
+      "name": "अंबोट",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "46",
+      "name": "किटडाँडा",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "47",
+      "name": "दमाढुङ्गा",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "48",
+      "name": "पौवागाँउ",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "49",
+      "name": "नेवार गाँउ",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "50",
+      "name": "मगर गाँउ",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "51",
+      "name": "कात्तिके",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "52",
+      "name": "वनचौर",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "53",
+      "name": "चिउरीमोड",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "54",
+      "name": "भिरपानी",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "55",
+      "name": "भाँगे",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "56",
+      "name": "आँपघारी",
+      "status": "1",
+      "ward_id": 3,
+      "office_id": 2
+    },
+    {
+      "id": "57",
+      "name": "कोटखाल",
+      "status": "1",
+      "ward_id": 4,
+      "office_id": 2
+    },
+    {
+      "id": "58",
+      "name": "स्टोर",
+      "status": "1",
+      "ward_id": 4,
+      "office_id": 2
+    },
+    {
+      "id": "59",
+      "name": "कुवँर गाँउ",
+      "status": "1",
+      "ward_id": 4,
+      "office_id": 2
+    }
+  ],
+  "jaatis": [
+    {
+      "id": "1",
+      "name": "क्षेत्री",
+      "status": "1",
+      "religion_id": null
+    },
+    {
+      "id": "2",
+      "name": "बाहुन",
+      "status": "1",
+      "religion_id": null
+    },
+    {
+      "id": "3",
+      "name": "मगर",
+      "status": "1",
+      "religion_id": null
+    },
+    {
+      "id": "4",
+      "name": "थारु",
+      "status": "1",
+      "religion_id": null
+    },
+    {
+      "id": "5",
+      "name": "तामाङ",
+      "status": "1",
+      "religion_id": null
+    },
+    {
+      "id": "6",
+      "name": "नेवार",
+      "status": "1",
+      "religion_id": null
+    },
+    {
+      "id": "7",
+      "name": "कामी",
+      "status": "1",
+      "religion_id": null
+    },
+    {
+      "id": "8",
+      "name": "नेपाली मुसालमान",
+      "status": "1",
+      "religion_id": null
+    },
+    {
+      "id": "9",
+      "name": "यादव",
+      "status": "1",
+      "religion_id": null
+    },
+    {
+      "id": "10",
+      "name": "रा‌‌ई",
+      "status": "1",
+      "religion_id": null
+    },
+    {
+      "id": "11",
+      "name": "गुरुङ",
+      "status": "1",
+      "religion_id": null
+    },
+    {
+      "id": "12",
+      "name": "दमाई",
+      "status": "1",
+      "religion_id": null
+    },
+    {
+      "id": "13",
+      "name": "ठकुरी",
+      "status": "1",
+      "religion_id": null
+    },
+    {
+      "id": "14",
+      "name": "लिम्बु",
+      "status": "1",
+      "religion_id": null
+    },
+    {
+      "id": "15",
+      "name": "सार्कि",
+      "status": "1",
+      "religion_id": null
+    },
+    {
+      "id": "16",
+      "name": "तेली",
+      "status": "1",
+      "religion_id": null
+    },
+    {
+      "id": "17",
+      "name": "मुसहर",
+      "status": "1",
+      "religion_id": null
+    },
+    {
+      "id": "18",
+      "name": "राऊटे",
+      "status": "1",
+      "religion_id": null
+    },
+    {
+      "id": "19",
+      "name": "पासी",
+      "status": "1",
+      "religion_id": null
+    }
+  ],
+  "education-faculties": [
+    { "id": "Management", "name": "Management" },
+    { "id": "Science", "name": "Science" },
+    { "id": "Education", "name": "Education" },
+    { "id": "Arts", "name": "Arts" }
+  ],
+  "dharmas": [
+    {
+      "id": "1",
+      "name": "हिन्दु",
+      "status": "1"
+    },
+    {
+      "id": "2",
+      "name": "बौद्ध",
+      "status": "1"
+    },
+    {
+      "id": "3",
+      "name": "मुस्लिम",
+      "status": "1"
+    },
+    {
+      "id": "4",
+      "name": "क्रिश्चियन / ईसाई",
+      "status": "1"
+    },
+    {
+      "id": "5",
+      "name": "किराँत",
+      "status": "1"
+    }
+  ],
+  "occupations": [
+    {
+      "id": "1",
+      "name": "कृषि",
+      "status": "1"
+    },
+    {
+      "id": "2",
+      "name": "ब्यापार",
+      "status": "1"
+    },
+    {
+      "id": "3",
+      "name": "बैदेशिक रोजगारी",
+      "status": "1"
+    },
+    {
+      "id": "4",
+      "name": "सरकारी नोकरी",
+      "status": "1"
+    },
+    {
+      "id": "5",
+      "name": "शिक्षक",
+      "status": "1"
+    },
+    {
+      "id": "6",
+      "name": "गैर सरकारी जागिर / नोकरी",
+      "status": "1"
+    },
+    {
+      "id": "7",
+      "name": "ज्याल मजदुर",
+      "status": "1"
+    },
+    {
+      "id": "8",
+      "name": "यातायात मजदुर",
+      "status": "1"
+    },
+    {
+      "id": "9",
+      "name": "ओधोगिक मजदूर",
+      "status": "1"
+    },
+    {
+      "id": "10",
+      "name": "उद्यमी",
+      "status": "1"
+    },
+    {
+      "id": "11",
+      "name": "स्वरोजगार",
+      "status": "1"
+    },
+    {
+      "id": "12",
+      "name": "बेरोजगार",
+      "status": "1"
+    },
+    {
+      "id": "13",
+      "name": "गृहणी",
+      "status": "1"
+    },
+    {
+      "id": "14",
+      "name": "विद्यार्थी",
+      "status": "1"
+    }
+  ],
+  "technical-skills": [
+    {
+      "id": "1",
+      "name": "इलेक्ट्रीसियन",
+      "status": "1"
+    },
+    {
+      "id": "2",
+      "name": "डकर्मी",
+      "status": "1"
+    },
+    {
+      "id": "3",
+      "name": "पेन्टर",
+      "status": "1"
+    },
+    {
+      "id": "4",
+      "name": "प्लम्बर",
+      "status": "1"
+    },
+    {
+      "id": "5",
+      "name": "सिकर्मी",
+      "status": "1"
+    },
+    {
+      "id": "6",
+      "name": "सुचना प्रविधि",
+      "status": "1"
+    },
+    {
+      "id": "7",
+      "name": "सिलाई बुनाई",
+      "status": "1"
+    },
+    {
+      "id": "8",
+      "name": "अन्य",
+      "status": "1"
+    }
+  ],
+  "login": {
+    "id": "1",
+    "office_id": 2,
+    "office_name": "Khadadevi"
+  },
+  "post-household": []
+}

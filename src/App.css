@@ -1,0 +1,227 @@
+body {
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: contain;
+}
+a {
+  text-decoration: none;
+  color: #0007;
+}
+
+.home {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.home .title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.home a {
+  font-size: 30px;
+  padding: 15px;
+  background-color: #eee;
+  border-radius: 5px;
+  color: #ff9800;
+  box-shadow: 0 0 5px 0px #0007;
+}
+.vp-home {
+  display: flex;
+  height: 103vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.vp-home .welcome {
+  position: absolute;
+  left: 50%;
+  top: 25px;
+  transform: translateX(-50%);
+  text-align: center;
+  /* font-size: 20px; */
+  color: #0007;
+}
+.vp-home .welcome .logout {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: red;
+}
+.vp-home a {
+  font-size: 30px;
+  padding: 15px;
+  background-color: #eee;
+  border-radius: 5px;
+  color: #ff9800;
+  box-shadow: 0 0 5px 0px #0007;
+  margin-bottom: 20px;
+}
+.vp-home form {
+  max-width: 300px;
+  width: 100%;
+}
+.vp-home form button {
+  padding: 5px 15px;
+  background: royalblue;
+  color: seashell;
+  font-size: 28px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.vp-home .form-group {
+  display: flex;
+  flex-direction: column;
+}
+.form-group input {
+  padding: 5px 15px;
+  font-size: 20px;
+  background: #fff;
+  border-radius: 5px;
+  /* height: 40px; */
+  /* margin-bottom: 20px; */
+}
+.vp-form-wrapper {
+  /* padding: 20px; */
+  max-width: 480px;
+  margin: auto;
+  position: relative;
+}
+.vp-form {
+  overflow-y: scroll;
+  height: 100vh;
+  /* scroll-snap-type: y proximity; */
+}
+.vp-form .form-group {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  /* scroll-snap-align: start; */
+  min-height: calc(100vh - 20px);
+  padding: 5%;
+}
+.vp-form .form-group:nth-of-type(odd) {
+  background-color: #ddd;
+}
+
+.vp-form .form-group:nth-of-type(even) {
+  background-color: #fff;
+}
+.vp-form .form-group.required {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+.vp-form .form-group .label {
+  font-weight: bold;
+  margin-top: 20px;
+}
+.vp-form .form-group .options-verical {
+  display: flex;
+  flex-direction: column;
+}
+.vp-form .form-group .options-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.vp-form .form-group .radio {
+  display: flex;
+  height: 50px;
+}
+.radio input {
+  margin-right: 20px;
+}
+
+.save-btns {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.save-btns button {
+  margin: 2px;
+}
+
+div.dropdown-menu.open {
+  max-height: 10px !important;
+  overflow: hidden;
+}
+ul.dropdown-menu.inner {
+  max-height: 10px !important;
+  overflow-y: auto;
+}
+.search-wrapper input {
+  padding: unset;
+  margin: unset;
+}
+.child-section {
+  background: #bbbbbb73;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px #0007;
+}
+.child-section .btn-success {
+  float: right;
+  margin-top: 5px;
+}
+
+.child-section .btn-warning {
+  float: right;
+  margin-top: 5px;
+}
+.question.error {
+  color: red;
+}
+.error-list {
+  text-align: left;
+}
+.member-form-one {
+  background-color: rgba(255, 0, 0, 0.15) !important;
+}
+.member-form-two {
+  background-color: rgba(238, 208, 99, 0.35) !important;
+}
+.member-form-three {
+  background-color: rgba(255, 0, 0, 0.55) !important;
+}
+.member-form-four {
+  background-color: rgba(255, 0, 0, 0.75) !important;
+}
+.view-household {
+  padding: 2%;
+  overflow-y: scroll;
+    height: 100vh;
+}
+.view-household p {
+  color: #0007;
+  font-size: 12px;
+}
+.view-household h4 {
+  color: #000;
+}
+.back-btn {
+  position: absolute;
+  right: 5px;
+  top: 2px;
+}
+.image-component{
+  align-items: center;
+}
+
+.hidden{
+  display: none;
+}
+
+.loading{
+  height: 100vh;
+  width: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

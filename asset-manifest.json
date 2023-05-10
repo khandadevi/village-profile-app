@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/village-profile-app/static/css/main.991b5be8.chunk.css",
-    "main.js": "/village-profile-app/static/js/main.d65be043.chunk.js",
-    "main.js.map": "/village-profile-app/static/js/main.d65be043.chunk.js.map",
+    "main.js": "/village-profile-app/static/js/main.63fbc94d.chunk.js",
+    "main.js.map": "/village-profile-app/static/js/main.63fbc94d.chunk.js.map",
     "runtime-main.js": "/village-profile-app/static/js/runtime-main.a5e7dc01.js",
     "runtime-main.js.map": "/village-profile-app/static/js/runtime-main.a5e7dc01.js.map",
     "static/js/2.3363db71.chunk.js": "/village-profile-app/static/js/2.3363db71.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a5e7dc01.js",
     "static/js/2.3363db71.chunk.js",
     "static/css/main.991b5be8.chunk.css",
-    "static/js/main.d65be043.chunk.js"
+    "static/js/main.63fbc94d.chunk.js"
   ]
 }

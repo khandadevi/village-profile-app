@@ -1609,10 +1609,10 @@ onChange={(e) => handleChange(e)}
 
                 <option value={"गाउँपालिका"}>गाउँपालिका</option>
                 <option value={"जिल्ला"}>जिल्ला</option>
-                <option value={"काठमान्डौ"}>काठमान्डौ उपत्यका, बनेपा, धुलीखेल </option>
-                <option value={"काठमान्डौ"}>बागमती प्रदेस </option>
-                <option value={"काठमान्डौ"}>अन्य प्रदेस </option>
-                <option value={"अन्य"}>बिदेश</option>
+                <option value={"काठमान्डौ उपत्यका"}>काठमान्डौ उपत्यका, बनेपा, धुलीखेल </option>
+                <option value={"बागमती प्रदेस"}>बागमती प्रदेस </option>
+                <option value={"अन्य प्रदेस"}>अन्य प्रदेस </option>
+                <option value={"बिदेश"}>बिदेश</option>
               </select>
             </div>
             {/* {land.location == "गाउँपालिका" && (

@@ -1411,7 +1411,7 @@ export default function PariwarKoBibaran(props: any) {
                 placeholder="शैक्षिक स्तरः"
                 errors={errors}
               />
-              {member.education_level_id == "7" ||
+              {
               member.education_level_id == "8" ||
               member.education_level_id == "9" ||
               member.education_level_id == "10" ? (

@@ -402,12 +402,12 @@ export default function VPForm(props: any) {
       }
 
       case "basti_id": {
-        msg = "साविक वडा";
+        msg = "बस्तिको नाम";
         // msg = "टोलको नाम";
         break;
       }
       case "marga_id": {
-        msg = "बस्तिको नाम";
+        msg = "टोलको नाम";
         // msg = "मार्गको नाम";
         break;
       }
@@ -417,6 +417,10 @@ export default function VPForm(props: any) {
       }
       case "hoh_last_name": {
         msg = "घरमुलीको थर छुटेको छ।";
+         break;
+      }
+      case "hoh_contact_num": {
+        msg = "घरमुलीको सम्पर्क छुटेको छ।";
          break;
       }
       case "dob_bs": {
@@ -540,14 +544,17 @@ export default function VPForm(props: any) {
             </div>
             {errors.length ? (
               <>
-                <h2>Please add follwing fields</h2>
+                <h3>तल दिईएको थप्नुहोस।</h3>
                 <ol className="error-list">
                   {errors.map((error) => (
                     <li onClick={() => scrollTo(error.name)}>
                       {error.message}
                     </li>
                   ))}
+                  
                 </ol>
+                <li></li>
+                  <li></li>
               </>
             ) : (
               ""

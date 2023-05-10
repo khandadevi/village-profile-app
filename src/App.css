@@ -24,7 +24,7 @@ a {
   padding: 15px;
   background-color: #eee;
   border-radius: 5px;
-  color: #ff9800;
+  color:red;
   box-shadow: 0 0 5px 0px #0007;
 }
 .vp-home {
@@ -55,7 +55,7 @@ a {
   padding: 15px;
   background-color: #eee;
   border-radius: 5px;
-  color: #ff9800;
+  color: red;
   box-shadow: 0 0 5px 0px #0007;
   margin-bottom: 20px;
 }

@@ -52,9 +52,10 @@ export default function VillageProfileHome() {
     setLoading(true);
     let res;
     // For JSON Server
-    // if (process.env.REACT_APP_SERVER === "https://demo.khandadevi.com/") {
-    if (process.env.REACT_APP_SERVER === "http://localhost:8000/") {
-      // if (process.env.REACT_APP_SERVER === "http://192.168.10.77:8000/") {
+    // if (process.env.REACT_APP_SERVER === "https://vp.khandadevi.com/") {
+    if (process.env.REACT_APP_SERVER === "https://demo.khandadevi.com/") {
+    // if (process.env.REACT_APP_SERVER === "http://localhost:8000/") {
+      // if (process.env.REACT_APP_SERVER === "http://192.168.10.33:8000/") {
       res = await api.loginJsonServer();
     }else{
       res = await api.login(auth);
@@ -139,19 +140,19 @@ export default function VillageProfileHome() {
       {/* <Link to="/village-profile-app/app/add-new">Add New Household</Link> */}
       <Link to="/village-profile-app/app/add-new">नयाँ घरमुली</Link>
       {/* <Link to="/village-profile-app/app/pending">Pending Data</Link> */}
-      <Link to="/village-profile-app/app/pending"> पठाउन बाँकी डेटा</Link>
+      <Link to="/village-profile-app/app/pending"> पठाउन बाँकी डाटा</Link>
       {/* <Link to="/village-profile-app/app/incomplete">Incomplete Data</Link> */}
-      <Link to="/village-profile-app/app/incomplete">नसकिएको डेटा</Link>
+      <Link to="/village-profile-app/app/incomplete">नसकिएको डाटा</Link>
       {/* <Link to="/village-profile-app/app/all">All Data</Link> */}
       <Link to="/village-profile-app/app/all">सबै डाटा</Link>
       <button className="btn btn-sm btn-secondary" onClick={syncServerData}>
-        डेटा तान्नुहोस
+        डाटा तान्नुहोस
       </button>
       
       <p className="logout" onClick={logout}>
           Logout
         </p>
-      <p>Version: 1.01</p>
+      <p>Version: 2.0</p>
       <input onChange={handleDelete} title="deleteall" placeholder="DELETE" className="col-md-3"></input>
     </div>
   );

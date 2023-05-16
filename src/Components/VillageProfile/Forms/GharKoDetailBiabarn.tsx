@@ -482,7 +482,11 @@ if (e.target.name == "member_name" && members && members.length) {
     let newHouse;
     newHouse = household.houses ?? [];
     if (cmd == "add") {
-      newHouse.push(house);
+      if (house.house_type_id == "" || house.house_qty == "" || house.location == "" ) {
+        alert("घरको स्थान, प्रकार र संख्या छान्नुहोस्।");
+        return;
+      }
+      newHouse.push(house);     
     } else {
       newHouse.splice(index, 1);
     }
@@ -494,6 +498,10 @@ if (e.target.name == "member_name" && members && members.length) {
     let newDisaster;
     newDisaster = household.disasters ?? [];
     if (cmd == "add") {
+      if (disaster.disaster_type == "" || disaster.disaster_location == "" || disaster.disaster_priority == "" ) {
+        alert("जोखिमको प्रकार, पर्ने स्थान र प्राथमिकता इकाई छान्नुहोस्।");
+        return;
+      }
       newDisaster.push(disaster);
     } else {
       newDisaster.splice(index, 1);
@@ -508,6 +516,10 @@ if (e.target.name == "member_name" && members && members.length) {
     let newLand;
     newLand = household.lands ?? [];
     if (cmd == "add") {
+      if (land.location == "" || land.land_type_id == "" || land.total_area == "" || land.area_unit == "" ) {
+        alert("जग्गाको स्थान, प्रकार, क्षेत्रफल र इकाई छान्नुहोस्।");
+        return;
+      }
       newLand.push(land);
     } else {
       newLand.splice(index, 1);

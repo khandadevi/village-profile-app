@@ -109,7 +109,7 @@ a {
 }
 
 .vp-form .form-group:nth-of-type(even) {
-  background-color: #fff;
+  background-color: #ddd;
 }
 .vp-form .form-group.required {
   border: 2px solid red;

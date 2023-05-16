@@ -52,8 +52,8 @@ export default function VillageProfileHome() {
     setLoading(true);
     let res;
     // For JSON Server
-    // if (process.env.REACT_APP_SERVER === "https://vp.khandadevi.com/") {
-    if (process.env.REACT_APP_SERVER === "https://demo.khandadevi.com/") {
+    if (process.env.REACT_APP_SERVER === "https://vp.khandadevi.com/") {
+    // if (process.env.REACT_APP_SERVER === "https://demo.khandadevi.com/") {
     // if (process.env.REACT_APP_SERVER === "http://localhost:8000/") {
       // if (process.env.REACT_APP_SERVER === "http://192.168.10.33:8000/") {
       res = await api.loginJsonServer();

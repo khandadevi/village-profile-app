@@ -99,8 +99,7 @@ export default function PariwarKoBibaran(props: any) {
     }
     // handleMemberChange(memberKey, "age", (dateBs - parseInt(newYear[0])));
     handleMemberChange(memberKey, "dob_bs", newAge);
-    
-    
+
     
   };
 
@@ -791,8 +790,8 @@ export default function PariwarKoBibaran(props: any) {
               />
 
 
-{ age > 12 && (
-  <>
+{/* { age > 12 && (
+  <> */}
 
 <label className="label" id={"has_voter_card-" + memberKey}>
                30. भोटर कार्ड भएको नभएको ?{" "}
@@ -849,8 +848,8 @@ export default function PariwarKoBibaran(props: any) {
                 </div>
               )}
 
-</>
-)}
+{/* </>
+)} */}
               {/* <SelectComponent
                 options={occupations}
                 wrapperClass="options-verical"
@@ -1583,8 +1582,8 @@ export default function PariwarKoBibaran(props: any) {
               />
 
 
-{ age > 12 && (
-  <>
+{/* { age > 12 && (
+  <> */}
 
 <label className="label" id={"has_voter_card-" + memberKey}>
                30. भोटर कार्ड भएको नभएको ?{" "}
@@ -1641,8 +1640,8 @@ export default function PariwarKoBibaran(props: any) {
                 </div>
               )}
 
-</>
-)}
+{/* </>
+)} */}
               {/* <SelectComponent
                 options={occupations}
                 wrapperClass="options-verical"
